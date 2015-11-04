@@ -1,1 +1,8 @@
-baseurl: /jekyll_demo
+baseurl: /curly_paint
+sass:
+    sass_dir: _sass
+    style: compressed
+title: "curly's paint"
+img_dir: images/
+paint_dir: paints/
+# excerpt_separator: "<->"

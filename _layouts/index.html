@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<div class="page-content clearfix">
+	{% for post in site.posts %}
+	<div class="grid-post">
+		{{post.excerpt}}
+	</div>
+	{% endfor %}
+</div>
