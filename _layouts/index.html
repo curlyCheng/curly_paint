@@ -3,8 +3,20 @@ layout: default
 ---
 <div class="page-content clearfix">
 	{% for post in site.posts %}
-	<div class="grid-post">
-		{{post.excerpt}}
+	<div class="grid-col">
+		<div class="grid-post">
+			{{post.excerpt}}
+		</div>
+	</div>
+	<div class="grid-col">
+		<div class="grid-post">
+			{{post.excerpt}}
+		</div>
+	</div>
+	<div class="grid-col">
+		<div class="grid-post">
+			{{post.excerpt}}
+		</div>
 	</div>
 	{% endfor %}
 </div>

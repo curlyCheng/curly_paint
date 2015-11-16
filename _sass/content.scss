@@ -1,13 +1,16 @@
 .page-content {
 	margin: 100px auto;
 	width: 960px;
-	.grid-post {
-		box-sizing: border-box;
+	.grid-col {
 		width: 300px;
+		margin: 0 10px;
+		float: left;
+	}
+ 	.grid-post {
+		box-sizing: border-box;
 		border: 5px solid $main_color;
 		background: $main_color;
-		margin: 10px;
-		float: left;
+		margin: 10px 0;
 		color: #000;
 		text-align: center;
 		img {
@@ -18,9 +21,9 @@
 @media screen and (max-width: 980px) {
 	.page-content {
 		width: 720px;
-		.grid-post {
+		.grid-col {
 			width: 48%;
-			margin: 1%;
+			margin: 0 1%;
 		}
 	}
 }
